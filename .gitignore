@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.sqlite3
+venv/
+env/
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Alembic
+alembic/versions/
+
+# Logs
+*.log
+
+# Static/generated
+backend/app/static/**/*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pyright / mypy / pytest
+.pyright/
+.mypy_cache/
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Backup / temp
+*.bak
+*.swp
+*.tmp
